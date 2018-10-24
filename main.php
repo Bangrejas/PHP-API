@@ -34,7 +34,7 @@
 			<td><?php echo $data['username']; ?></td>
 			<td><?php echo $data['password']; ?></td>
 			<td><?php echo $data['level']; ?></td>
-			<td><?php echo $data['full name']; ?></td>
+			<td><?php echo $data['fullname']; ?></td>
 			<td>
 			<a onclick="return confirm('Yakin untuk menghapus ?')"
 			href="hapus.php?id=<?php echo $data['id']; ?>">Hapus</a>
